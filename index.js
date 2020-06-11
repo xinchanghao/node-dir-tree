@@ -1,4 +1,5 @@
 require("./lib/log");
+
 const init = function () {
   log("______ init ______".blueBG, "\n");
 

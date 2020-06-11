@@ -14,7 +14,13 @@
 npm install
 ```
 
-2. 预览生成的 html
+2. 生成的目录树文件
+
+```
+npm start [dir] // dir为指定的目录
+```
+
+3. 预览生成的 html
 
 ```
 npm run pr
