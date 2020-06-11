@@ -20,7 +20,7 @@ npm install
 npm run pr
 ```
 
-#### 思路过程
+### 思路过程
 
 首先，表示目录的对象结构应该是这样的（这里偷个懒用 ts 的类型定义表示一下）
 
@@ -43,10 +43,10 @@ type treeObj = {
 4.  以上步骤重复，直到达到最底层空文件夹或该文件夹只有文件
 5.  根据得到的树形对象，生成 html 文件并写入 dom 节点即可
 
-#### TODO 拓展
+### TODO 拓展
 
-可以配合 [commander](https://github.com/tj/commander.js) 接收和解析复杂的命令行参数，以支持更多的功能，比如，自定义过滤某些文件（如 gitignore）或目录（如 node_modules），或者自定义筛选指定的文件或目录
+1.  可以配合 [commander](https://github.com/tj/commander.js) 接收和解析复杂的命令行参数，以支持更多的功能，比如，自定义过滤某 些文件（如 gitignore）或目录（如 node_modules），或者自定义筛选指定的文件或目录
 
-添加结构树输出，类似 [tree](https://github.com/derycktse/treer#readme) 那样
+2.  添加结构树输出，类似 [tree](https://github.com/derycktse/treer#readme) 那样
 
-奥力给吧
+奥力给吧...
