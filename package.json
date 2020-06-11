@@ -1,0 +1,20 @@
+{
+  "name": "node-dir-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "node index.js",
+    "pr": "npx http-server output"
+  },
+  "keywords": [
+    "node",
+    "fs"
+  ],
+  "author": "化风",
+  "license": "ISC",
+  "dependencies": {
+    "console-color-mr": "^2.0.1"
+  }
+}
