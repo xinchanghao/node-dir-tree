@@ -54,5 +54,3 @@ type treeObj = {
 1.  可以配合 [commander](https://github.com/tj/commander.js) 接收和解析复杂的命令行参数，以支持更多的功能，比如，自定义过滤某 些文件（如 gitignore）或目录（如 node_modules），或者自定义筛选指定的文件或目录
 
 2.  添加结构树输出，类似 [tree](https://github.com/derycktse/treer#readme) 那样
-
-奥力给吧...
